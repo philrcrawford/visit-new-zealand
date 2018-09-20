@@ -1,3 +1,4 @@
+/* GLOBAL  */
 * {
   margin: 0;
   padding: 0;
@@ -7,30 +8,31 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* HEADER */
-
-header {
-  text-align: center;
-}
-
 .container {
   position: relative;
   text-align: center;
-  color: white;
+  margin: 0 4px;
+}
+
+/* HEADER */
+
+header {
+  margin-top: 4px;
+  text-align: center;
 }
 
 h1 {
   position: absolute;
   top: 70%;
-  left: 25%;
+  right: 10%;
   font-size: 1.5em;
   color: white;
   text-shadow: 0 .5px black;
-  /* background: red; */
 }
 
-header img {
+img {
   width: 100%;
+  box-shadow: 1px 0 1px .5px rgba(20,33,47,.5);
 }
 
 nav {
@@ -49,10 +51,24 @@ nav a {
   text-shadow: 0 .5px black;
 }
 
-
-
 /* MAIN */
 
-main div img {
-  width: 100%;
+p {
+  margin: 0;
+}
+
+.container p {
+  position: absolute;
+  color: white;
+  text-shadow: 0 .5px black;
+}
+
+.first p, .third p {
+  top: 75%;
+  left: 10%;
+}
+
+.second p, .fourth p {
+  top: 75%;
+  right: 10%;
 }
