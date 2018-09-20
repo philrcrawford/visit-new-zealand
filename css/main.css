@@ -163,3 +163,40 @@ footer p {
   font-size: .5em;
   text-align: center;
 }
+
+@media (min-width: 768px) {
+  nav a {
+    font-size: 1.5em;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  .first, .third {
+    float: left;
+    width: 49.25%;
+    margin: 0;
+    margin-left: 4px;
+  }
+
+  .second, .fourth {
+    float: right;
+    width: 49.25%;
+    margin: 0;
+    margin-right: 4px;
+  }
+
+  .more-info {
+    clear: both;
+  }
+}
+
+/* @media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+} */
