@@ -2,37 +2,57 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: Arial, sans-serif;
 }
+
+/* HEADER */
+
 header {
-  background: url('../images/wanaka-tree.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 250px;
   text-align: center;
 }
 
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  position: absolute;
+  top: 70%;
+  left: 25%;
+  font-size: 1.5em;
+  color: white;
+  text-shadow: 0 .5px black;
+  /* background: red; */
+}
+
+header img {
+  width: 100%;
+}
+
 nav {
+  position: absolute;
+  top: 0;
+  right: 0;
   margin-top: 10px;
   margin-right: 10px;
   float: right;
 }
 
 nav a {
-  /* background: white; */
   padding: 5px;
-  /* border-radius: 10px; */
   text-decoration: none;
   color: white;
   text-shadow: 0 .5px black;
 }
 
-h1 {
-  float: left;
-  padding-top: 120px;
-  padding-left: 20px;
-  font-size: 1.5em;
-  color: white;
-  text-shadow: 0 .5px black;
+
+
+/* MAIN */
+
+main div img {
+  width: 100%;
 }
