@@ -105,48 +105,14 @@ p i:hover {
 }
 
 .more-info p {
-  /* position: absolute; */
   margin-top: 3px;
   margin-bottom: 4px;
   color: white;
-  /* top: 50%; */
 }
-
-/* form {
-  position: absolute;
-  background: rgba(0,0,0,.5);
-  top: 5%;
-  margin: 0;
-  padding-right: 30px;
-  padding-bottom: 7px;
-  width: 80%;
-}
-
-input {
-  display: block;
-  width: 100%;
-  padding: 6px 0;
-  margin-bottom: 1px;
-  margin-left: 6px;
-  width: 84%;
-  background: none;
-  border: 1px solid white;
-} */
 
 input::placeholder {
   color: white;
 }
-
-/* button {
-  position: absolute;
-  top: 27%;
-  right: 3%;
-  float: right;
-  padding: 22px 5px 23px 5px;
-  background: #2db6e8;
-  color: white;
-  border: none;
-}  */
 
 form {
   position: absolute;
@@ -237,6 +203,21 @@ footer p {
 
   .more-info {
     clear: both;
+  }
+
+  form {
+    padding: 5px 6px 5px 5px;
+    width: 40%;
+  }
+
+  input {
+    padding: 6px 0;
+    margin-bottom: 1px;
+  }
+
+  button {
+    width: 101%;
+    padding: 5px 5px 5px 5px;
   }
 }
 
