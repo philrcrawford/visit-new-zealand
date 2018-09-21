@@ -302,6 +302,24 @@ footer p {
     font-size: 1em;
   }
 
+  .sign-up-and-explore {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .more-info {
+    display: inline-block;
+    width: 45%;
+    float: left;
+  }
+
+  .explore-more {
+    display: inline-block;
+    width: 45%;
+    float: right;
+  }
+
   form {
     padding: 5px 6px 5px 5px;
     width: 40%;
