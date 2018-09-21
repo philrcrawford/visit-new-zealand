@@ -195,8 +195,52 @@ footer p {
 
 /* @media (min-width: 992px) {
 
-}
+} */
 
 @media (min-width: 1200px) {
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
-} */
+  img {
+    max-height: 500px;
+    object-fit: cover;
+  }
+
+  h1 {
+    font-size: 4em;
+    left: 18%;
+  }
+
+  .images {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .first, .third {
+    display: inline-block;
+    float: none;
+    width: 20%;
+    margin: 0;
+    margin-left: 0;
+  }
+
+  .second, .fourth {
+    display: inline-block;
+    float: none;
+    width: 20%;
+    margin: 0;
+    margin-right: 0;
+  }
+
+  .first p, .second p, .third p, .fourth p {
+    position: static;
+    color: black;
+    background: none;
+    font-size: 1em;
+  }
+
+}
