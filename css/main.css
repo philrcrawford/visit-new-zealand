@@ -135,7 +135,7 @@ input {
 
 button {
   display: block;
-  width: 101%;
+  width: 100.5%;
   padding: 5px 5px 5px 5px;
   background: #2db6e8;
   color: white;
@@ -206,18 +206,20 @@ footer p {
   }
 
   form {
-    padding: 5px 6px 5px 5px;
     width: 40%;
+    max-width: 300px;
   }
 
   input {
-    padding: 6px 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
     margin-bottom: 1px;
   }
 
   button {
-    width: 101%;
-    padding: 5px 5px 5px 5px;
+    width: 100.5%;
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
 }
 
@@ -269,6 +271,22 @@ footer p {
     color: black;
     background: none;
     font-size: 1em;
+  }
+
+  form {
+    padding: 5px 6px 5px 5px;
+    width: 40%;
+    max-width: 400px;
+  }
+
+  input {
+    padding: 12px 0;
+    margin-bottom: 1px;
+  }
+
+  button {
+    width: 100.5%;
+    padding-top: 12px;
   }
 
 }
