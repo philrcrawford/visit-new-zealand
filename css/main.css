@@ -115,7 +115,7 @@ input::placeholder {
 form {
   position: absolute;
   background: rgba(0,0,0,.5);
-  top: 20%;
+  top: 10%;
   left: 8%;
   margin: 0;
   padding: 5px 6px 5px 5px;
@@ -145,10 +145,10 @@ button {
   background: rgba(0,0,0,.5);
   padding: 5px 6px 5px 5px;
   top: 10%;
-  /* left: 48%; */
-  right: 5%;
+  right: 9%;
   color: white;
   width: 45%;
+  max-width: 320px;
 }
 
 .explore-more-container p {
