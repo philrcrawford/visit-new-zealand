@@ -97,11 +97,9 @@ p i:hover {
 /* SIGN UP FORM and EXPLORE MORE */
 
 .more-info, .explore-more {
-  border-top: 1px solid #ccc;
   position: relative;
-  margin-bottom: 4px;
   text-align: center;
-  margin: 0 4px 4px 4px;
+  margin: 0 4px;
 }
 
 .more-info p {
@@ -139,6 +137,27 @@ button {
   padding: 5px 5px 5px 5px;
   background: #2db6e8;
   color: white;
+  border: none;
+}
+
+.explore-more-container {
+  position: absolute;
+  background: rgba(0,0,0,.5);
+  padding: 5px 6px 5px 5px;
+  top: 10%;
+  /* left: 48%; */
+  right: 5%;
+  color: white;
+  width: 45%;
+}
+
+.explore-more-container p {
+  margin-top: 3px;
+  margin-bottom: 4px;
+}
+
+.explore-more-container button {
+  padding: 5px 5px 5px 5px;
   border: none;
 }
 
@@ -218,6 +237,16 @@ footer p {
 
   button {
     width: 100.5%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .explore-more-container {
+    padding: 5px 6px 5px 5px;
+    max-width: 400px;
+  }
+
+  .explore-more-container button{
     padding-top: 8px;
     padding-bottom: 8px;
   }
