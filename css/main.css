@@ -185,8 +185,22 @@ footer {
   width: 50%;
 }
 
+footer h4 {
+  padding: 3px 0 2px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
 footer p {
   font-size: .75em;
+  padding: 3px 0;
 }
 
 .copyright {
